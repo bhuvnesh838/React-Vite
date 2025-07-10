@@ -6,6 +6,8 @@ function App() {
  ///let count=5;
    const addValue =()=>{ 
      Counter(count+1);
+     //Counter(prevCount => prevCount + 1); 
+     //It Avoids React Fiber, group updates.
   }  
 
   const removeValue =()=>{
